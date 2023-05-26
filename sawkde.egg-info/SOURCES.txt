@@ -1,0 +1,11 @@
+README.md
+setup.py
+sawkde/__init__.py
+sawkde/sawkde.py
+sawkde.egg-info/PKG-INFO
+sawkde.egg-info/SOURCES.txt
+sawkde.egg-info/dependency_links.txt
+sawkde.egg-info/requires.txt
+sawkde.egg-info/top_level.txt
+sawkde/backend/__init__.py
+sawkde/backend/backend.c
