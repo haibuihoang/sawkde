@@ -1,7 +1,9 @@
 # Selective-Adaptive Bandwidth Gaussian KDE
 
 Author: Hai Bui 
-Contact: hai.bui@uib.no 
+
+Contact: hai.bui[at]uib.no 
+
 Date: June 2023
 
 ## Introduction
