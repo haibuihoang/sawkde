@@ -16,8 +16,10 @@ exts = Extension(name='sawkde.backend',
 setup(
     name='sawkde',
     version='0.1',
-    description='A Python extension for sawkde',
-    author='Your Name',
+    description="Selective-Adaptive bandwidth KDE: A Python extension of scipy's Gausian KDE",
+    author='Hai Bui',
+    author_email="haibuihoang@gmail.com",
+    url="https://github.com/haibuihoang/sawkde",
     packages=['sawkde'],
     install_requires=[
 	'scipy==1.9.1',
