@@ -6,7 +6,7 @@ Date: June 2023
 
 ## Introduction
 
-`saw_gausian_kde` is an extension of [scipy.stats.gaussian_kde](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.gaussian_kde.html) class for multivariate kernel density estimation (KDE). Generally, a Gaussian KDE is controlled by a bandwidth matrix, in which the shape and size determine the accuracy of the estimation. The `scipy` calculates this by multiplying a single parameter $h$, called the bandwidth, with the covariance matrix of the input data. However, in some cases, this method may not work well, and we can improve the estimation by selectively changing the bandwidth for different directions of the eigenvectors (imagine the kernel's shape is like a balloon, and we can compress or stretch it!). 
+`sawkde.saw_gausian_kde` is an extension of [scipy.stats.gaussian_kde](https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.gaussian_kde.html) class for multivariate kernel density estimation (KDE). Generally, a Gaussian KDE is controlled by a bandwidth matrix, in which the shape and size determine the accuracy of the estimation. The `scipy` calculates this by multiplying a single parameter $h$, called the bandwidth, with the covariance matrix of the input data. However, in some cases, this method may not work well, and we can improve the estimation by selectively changing the bandwidth for different directions of the eigenvectors (imagine the kernel's shape is like a balloon, and we can compress or stretch it!). 
 
 For details on the method, please refer to the accompanying paper:
 
